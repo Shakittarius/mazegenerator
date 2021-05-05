@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.19.6
 
 COPY /html /usr/share/nginx/html
 COPY default.conf.template /etc/nginx/conf.d/default.conf.template
