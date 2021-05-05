@@ -15,3 +15,4 @@ jobs:
           heroku_api_key: "0f15bf39-0bd8-4809-b89a-97800aaedd5c"
           heroku_app_name: "jsmazegen"
           heroku_email: "lauri.nurmela@gmail.com"
+          dockerfile_path: ""
