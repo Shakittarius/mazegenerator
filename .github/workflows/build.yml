@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{secrets.0f15bf39-0bd8-4809-b89a-97800aaedd5c}}
+          heroku_api_key: "0f15bf39-0bd8-4809-b89a-97800aaedd5c"
           heroku_app_name: "Maze generator"
           heroku_email: "lauri.nurmela@gmail.com"
